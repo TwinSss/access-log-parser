@@ -1,4 +1,4 @@
 .idea/
 out/
-*.xml
+*.iml
 target/
