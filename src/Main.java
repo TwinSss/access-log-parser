@@ -7,9 +7,10 @@ public class Main {
         int numOne = new Scanner(System.in).nextInt();
         System.out.println("Введите второе число: ");
         int numTwo = new Scanner(System.in).nextInt();
+        double division = (double) numOne / numTwo;
         System.out.println("Сумма чисел: " + (numOne + numTwo));
         System.out.println("Разность чисел: " + (numOne - numTwo));
         System.out.println("Произведение чисел: " + (numOne * numTwo));
-        System.out.println("Частное чисел: " + (double)(numOne / numTwo));
+        System.out.println("Частное чисел: " + division);
     }
 }
